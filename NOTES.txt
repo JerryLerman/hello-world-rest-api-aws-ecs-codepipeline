@@ -1,0 +1,29 @@
+https://www.udemy.com/course/deploy-spring-microservices-to-aws-with-ecs-and-aws-fargate/learn/lecture/15953328#overview
+This will use ECR instead of Dockerhub
+Go to AWS and create a container repository
+	Go to AWS  ECR
+	Call it aws-hello-world-rest-api and make it mutable so it can be changed. Create it
+Go to AWS CodePipeline
+	3 Stages: Source, Build, and Deploy
+	Will pick up the code from github, build it and deploy it to the cluster
+Commit this project to the github repository
+Will not use it from Eclipse.
+	go to ~/Development/SpringBoot_AWSFargate_course/in28min/git/deploy-spring-microservices-to-aws-ecs-fargate-master
+	Make a copy of 08-aws-hello-world-rest-api-pipeline as /home/jerry/Development/SpringBoot_AWSFargate_course/lerman/hello-world-rest-api-pipeline-aws-ecs-codepipeline
+	import it into eclipse
+Go to /home/jerry/Development/SpringBoot_AWSFargate_course/lerman/hello-world-rest-api-code-pipeline-aws-ecs-codepipeline
+git init
+Copy the .gitignore file
+Need to create a git repository
+go to https://github.com, log in and all that
+Click "New" to create a new repository named "hello-world-rest-api-aws-ecs-codepipeline"
+Then do a git add *
+and do "git add .gitignore"
+
+
+
+	
+	
+	
+
+	
